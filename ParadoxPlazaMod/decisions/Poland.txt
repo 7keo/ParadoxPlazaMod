@@ -765,7 +765,8 @@ political_decisions = {
 		picture = german_tyrol
 		
 		potential = {
-			OR = {
+			exists = KRA 
+      OR = {
 				owns = 716
 				owns = 685
 				owns = 2584
@@ -773,18 +774,20 @@ political_decisions = {
 				}
 			}
 			
-		allow = {
-			is_disarmed = no 
+		allow = {  # some changes for better tooltips
+			NOT = { is_disarmed = yes }  #is_disarmed = no 
 			war = no 
-			exists = KRA 
+			#exists = KRA 
 			703 = { owned_by = KRA }
-			AND = {
+      
+      NOT = { KRA = { num_of_cities = 2 } }  # no more than 1 province
+			#AND = {
 				owns = 716
 				owns = 685
 				owns = 2584
 				owns = 714 
-				}
-			}
+			#}
+    }
 			
 		effect = {
 			casus_belli = {

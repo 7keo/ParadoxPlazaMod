@@ -444,6 +444,7 @@ political_decisions = {
 			war = no 
 			#exists = LUX
 			397 = { owned_by = LUX }
+      LUX = NOT = { num_of_cities = 2 }  # no more than 1 province
 			#AND = {
 				owns = 398
 				owns = 396
