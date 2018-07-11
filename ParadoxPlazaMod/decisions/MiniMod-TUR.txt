@@ -1,4 +1,4 @@
-political_decisions = {	
+political_decisions = {
 	annex_egypt = {
 
 		potential = {
@@ -187,6 +187,7 @@ political_decisions = {
 			}
 			badboy = 7
 		}
+    
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -210,9 +211,9 @@ political_decisions = {
 				war_with = AUS
 				war_with = KUK
 				war_with = DNB
-				}
+      }
 			NOT = { has_country_flag = final_siege_of_vienna }
-			}
+    }
 	
 		allow = {
 			619 = { controlled_by = TUR }
@@ -235,4 +236,3 @@ political_decisions = {
 		}
 	}
 }	
-	
