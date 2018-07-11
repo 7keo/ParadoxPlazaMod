@@ -428,6 +428,7 @@ political_decisions = {
 		picture = german_tyrol
 		
 		potential = {
+      exists = LUX
 			OR = {
 				owns = 398
 				owns = 396
@@ -438,27 +439,27 @@ political_decisions = {
 				}
 			}
 			
-		allow = {
-			is_disarmed = no 
+		allow = {	 # some changes for better tooltips
+			NOT = { is_disarmed = yes }  #is_disarmed = no 
 			war = no 
-			exists = LUX
+			#exists = LUX
 			397 = { owned_by = LUX }
-			AND = {
+			#AND = {
 				owns = 398
 				owns = 396
 				owns = 413
 				owns = 412
 				owns = 573 
 				owns = 572 
-				}
-			}
+      #}
+    }
 			
 		effect = {
 			casus_belli = {
 				target = LUX
 				type = conquest 
 				months =  16 
-				}
+      }
 			badboy = 8
 			prestige = 5 
 		}
