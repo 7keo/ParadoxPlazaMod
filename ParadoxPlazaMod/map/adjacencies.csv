@@ -164,13 +164,14 @@ From;To;Type;Through;Data;Comment
 #732;735;impassable;0;0;Treviso-Bozen
 #732;615;impassable;0;0;Treviso-Linz
 #732;618;impassable;0;0;Treviso-Klagenfurth
+#733;618;impassable;0;0;Udine-Klagenfurt
 
 612;735;impassable;0;0;Innsbruck-Bozen
 #613;615;impassable;0;0;Salzburg-Lienz
 613;618;impassable;0;0;Salzburg-Klagenfurt
 613;617;impassable;0;0;Salzburg-Judenburg
 
-733;618;impassable;0;0;Udine-Klagenfurt
+
 727;611;impassable;0;0;Bergamo-Chur
 727;2568;impassable;0;0;Bergamo-Lugano
 722;605;impassable;0;0;Novara-Bern
